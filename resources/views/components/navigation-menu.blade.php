@@ -67,6 +67,10 @@
                                 <div class="sb-nav-link-icon"><i class="fa-solid fa-boxes-packing"></i></div>
                                 Productos
                             </a>
+                            <a class="nav-link" href="{{route('clientes.index')}}">
+                                <div class="sb-nav-link-icon"><i class="fa-solid fa-users"></i></div>
+                                Clientes
+                            </a>
                         </div>
                     </div>
                     <div class="sb-sidenav-footer">

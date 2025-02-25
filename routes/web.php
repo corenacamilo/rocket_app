@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\categoriaController;
+use App\Http\Controllers\clienteController;
 use App\Http\Controllers\ProductoController;
 use App\Http\Controllers\MarcaController;
 use App\Http\Controllers\PresentacioneController;
@@ -21,6 +22,7 @@ Route::resources([
     'marcas' => MarcaController::class,
     'categorias' => categoriaController::class,
     'productos' => ProductoController::class,
+    'clientes' => clienteController::class
 ]);
 
 Route::resource('categorias',categoriaController::class);
